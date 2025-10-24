@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from pytube import YouTube
+from pytubefix import YouTube
 import re
 import os
 
@@ -95,3 +95,4 @@ def download_video(resolution):
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 10000))
     app.run(host='0.0.0.0', port=port, debug=False)
+
