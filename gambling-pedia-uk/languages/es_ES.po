@@ -1,0 +1,278 @@
+# Spanish Translation for Gambling Pedia UK
+# Copyright (C) 2024 Gambling Pedia UK
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gambling Pedia UK 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-01T00:00:00+00:00\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Skip to content"
+msgstr "Ir al contenido"
+
+msgid "Gambling"
+msgstr "Gambling"
+
+msgid "Pedia"
+msgstr "Pedia"
+
+msgid "UK"
+msgstr "UK"
+
+msgid "Primary Navigation"
+msgstr "Navegación Principal"
+
+msgid "Menu"
+msgstr "Menú"
+
+msgid "Breaking"
+msgstr "Última Hora"
+
+msgid "Primary Menu"
+msgstr "Menú Principal"
+
+msgid "Footer Menu"
+msgstr "Menú del Pie"
+
+msgid "Top Bar Menu"
+msgstr "Menú de la Barra Superior"
+
+msgid "Main Sidebar"
+msgstr "Barra Lateral Principal"
+
+msgid "Select Language"
+msgstr "Seleccionar Idioma"
+
+msgid "English (UK)"
+msgstr "Inglés (UK)"
+
+msgid "Danish"
+msgstr "Danés"
+
+msgid "Romanian"
+msgstr "Rumano"
+
+msgid "Dutch"
+msgstr "Holandés"
+
+msgid "Swedish"
+msgstr "Sueco"
+
+msgid "Hungarian"
+msgstr "Húngaro"
+
+msgid "Korean"
+msgstr "Coreano"
+
+msgid "Greek"
+msgstr "Griego"
+
+msgid "Italian"
+msgstr "Italiano"
+
+msgid "Spanish"
+msgstr "Español"
+
+msgid "Thai"
+msgstr "Tailandés"
+
+msgid "Portuguese"
+msgstr "Portugués"
+
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+msgid "Finnish"
+msgstr "Finlandés"
+
+msgid "German"
+msgstr "Alemán"
+
+msgid "Japanese"
+msgstr "Japonés"
+
+msgid "Norwegian"
+msgstr "Noruego"
+
+msgid "Arabic"
+msgstr "Árabe"
+
+msgid "Chinese"
+msgstr "Chino"
+
+msgid "Home"
+msgstr "Inicio"
+
+msgid "Search: %s"
+msgstr "Buscar: %s"
+
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] "%d min de lectura"
+msgstr[1] "%d min de lectura"
+
+msgid "by"
+msgstr "por"
+
+msgid "Share:"
+msgstr "Compartir:"
+
+msgid "About Gambling Pedia UK"
+msgstr "Sobre Gambling Pedia UK"
+
+msgid "Responsible Gambling"
+msgstr "Juego Responsable"
+
+msgid "Gambling can be addictive. Please play responsibly. 18+ only. If you need help, visit BeGambleAware.org."
+msgstr "El juego puede ser adictivo. Por favor, juega de manera responsable. Solo mayores de 18 años. Si necesitas ayuda, visita BeGambleAware.org."
+
+msgid "Quick Links"
+msgstr "Enlaces Rápidos"
+
+msgid "Categories"
+msgstr "Categorías"
+
+msgid "Follow Us"
+msgstr "Síguenos"
+
+msgid "All rights reserved."
+msgstr "Todos los derechos reservados."
+
+msgid "Privacy Policy"
+msgstr "Política de Privacidad"
+
+msgid "Terms of Use"
+msgstr "Términos de Uso"
+
+msgid "Cookie Policy"
+msgstr "Política de Cookies"
+
+msgid "Contact Us"
+msgstr "Contáctenos"
+
+msgid "About Us"
+msgstr "Sobre Nosotros"
+
+msgid "Gambling Laws UK"
+msgstr "Leyes de Juego del Reino Unido"
+
+#, php-format
+msgid "Get the latest news from %s delivered to your inbox. No spam, unsubscribe anytime."
+msgstr "Recibe las últimas noticias de %s en tu correo. Sin spam, cancela cuando quieras."
+
+msgid "Latest News"
+msgstr "Últimas Noticias"
+
+msgid "Search Results for: %s"
+msgstr "Resultados de búsqueda para: %s"
+
+msgid "Articles"
+msgstr "Artículos"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "Trending Now"
+msgstr "Tendencias"
+
+msgid "Newsletter"
+msgstr "Boletín Informativo"
+
+msgid "Get the latest UK gambling news delivered to your inbox. No spam, unsubscribe anytime."
+msgstr ""
+
+msgid "Your email address"
+msgstr "Tu dirección de correo electrónico"
+
+msgid "Subscribe Now"
+msgstr "Suscríbete Ahora"
+
+msgid "Popular Tags"
+msgstr "Etiquetas Populares"
+
+msgid "%s views"
+msgstr "%s vistas"
+
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+msgid "Related Articles"
+msgstr "Artículos Relacionados"
+
+msgid "Nothing Found"
+msgstr "No se encontró nada"
+
+msgid "Sorry, no results were found for your search. Please try again with different keywords."
+msgstr "Lo sentimos, no se encontraron resultados para tu búsqueda. Intenta de nuevo con otras palabras clave."
+
+msgid "Search for:"
+msgstr "Buscar:"
+
+msgid "Search news, reviews..."
+msgstr "Buscar noticias, reseñas..."
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Page Not Found"
+msgstr "Página No Encontrada"
+
+msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgstr "La página que busca puede haber sido eliminada, haber cambiado de nombre o no estar disponible temporalmente."
+
+msgid "Latest Articles"
+msgstr "Últimos Artículos"
+
+msgid "Older Comments"
+msgstr "Comentarios Anteriores"
+
+msgid "Newer Comments"
+msgstr "Comentarios Recientes"
+
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+msgid "Breadcrumb"
+msgstr "Migas de pan"
+
+msgid "Your trusted source for UK gambling news, casino reviews, sports betting insights, and regulatory updates. Stay informed with the latest from the British gambling industry."
+msgstr "Tu fuente confiable de noticias sobre juegos de azar en el Reino Unido, reseñas de casinos, análisis de apuestas deportivas y actualizaciones regulatorias."
+
+msgid "SEO Settings"
+msgstr "Configuración SEO"
+
+msgid "Default Meta Description"
+msgstr "Meta Descripción Predeterminada"
+
+msgid "Used on pages without their own description. Max 160 characters."
+msgstr "Se usa en páginas sin su propia descripción. Máximo 160 caracteres."
+
+msgid "Google Site Verification"
+msgstr "Verificación de Google"
+
+msgid "Enter the verification meta tag content value."
+msgstr "Ingrese el valor de contenido de la etiqueta meta de verificación."
+
+msgid "Bing Site Verification"
+msgstr "Verificación de Bing"
+
+msgid "Footer Bottom Links"
+msgstr "Enlaces del Pie de Página"
+
+#, php-format
+msgid "About %s"
+msgstr "Acerca de %s"
+
+msgid "Contact"
+msgstr "Contacto"
