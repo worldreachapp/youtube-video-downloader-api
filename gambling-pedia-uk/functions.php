@@ -246,25 +246,53 @@ function gpuk_get_available_languages() {
             'locale'   => 'en_GB',
             'dir'      => 'ltr',
         ),
-        'es_ES' => array(
-            'label'    => __( 'Spanish', 'gambling-pedia-uk' ),
-            'slug'     => 'es',
-            'hreflang' => 'es',
-            'locale'   => 'es_ES',
+        'da_DK' => array(
+            'label'    => __( 'Danish', 'gambling-pedia-uk' ),
+            'slug'     => 'da',
+            'hreflang' => 'da',
+            'locale'   => 'da_DK',
             'dir'      => 'ltr',
         ),
-        'fr_FR' => array(
-            'label'    => __( 'French', 'gambling-pedia-uk' ),
-            'slug'     => 'fr',
-            'hreflang' => 'fr',
-            'locale'   => 'fr_FR',
+        'ro_RO' => array(
+            'label'    => __( 'Romanian', 'gambling-pedia-uk' ),
+            'slug'     => 'ro',
+            'hreflang' => 'ro',
+            'locale'   => 'ro_RO',
             'dir'      => 'ltr',
         ),
-        'de_DE' => array(
-            'label'    => __( 'German', 'gambling-pedia-uk' ),
-            'slug'     => 'de',
-            'hreflang' => 'de',
-            'locale'   => 'de_DE',
+        'nl_NL' => array(
+            'label'    => __( 'Dutch', 'gambling-pedia-uk' ),
+            'slug'     => 'nl',
+            'hreflang' => 'nl',
+            'locale'   => 'nl_NL',
+            'dir'      => 'ltr',
+        ),
+        'sv_SE' => array(
+            'label'    => __( 'Swedish', 'gambling-pedia-uk' ),
+            'slug'     => 'sv',
+            'hreflang' => 'sv',
+            'locale'   => 'sv_SE',
+            'dir'      => 'ltr',
+        ),
+        'hu_HU' => array(
+            'label'    => __( 'Hungarian', 'gambling-pedia-uk' ),
+            'slug'     => 'hu',
+            'hreflang' => 'hu',
+            'locale'   => 'hu_HU',
+            'dir'      => 'ltr',
+        ),
+        'ko_KR' => array(
+            'label'    => __( 'Korean', 'gambling-pedia-uk' ),
+            'slug'     => 'ko',
+            'hreflang' => 'ko',
+            'locale'   => 'ko_KR',
+            'dir'      => 'ltr',
+        ),
+        'el'    => array(
+            'label'    => __( 'Greek', 'gambling-pedia-uk' ),
+            'slug'     => 'el',
+            'hreflang' => 'el',
+            'locale'   => 'el',
             'dir'      => 'ltr',
         ),
         'it_IT' => array(
@@ -274,11 +302,60 @@ function gpuk_get_available_languages() {
             'locale'   => 'it_IT',
             'dir'      => 'ltr',
         ),
+        'es_ES' => array(
+            'label'    => __( 'Spanish', 'gambling-pedia-uk' ),
+            'slug'     => 'es',
+            'hreflang' => 'es',
+            'locale'   => 'es_ES',
+            'dir'      => 'ltr',
+        ),
+        'th'    => array(
+            'label'    => __( 'Thai', 'gambling-pedia-uk' ),
+            'slug'     => 'th',
+            'hreflang' => 'th',
+            'locale'   => 'th',
+            'dir'      => 'ltr',
+        ),
         'pt_PT' => array(
             'label'    => __( 'Portuguese', 'gambling-pedia-uk' ),
             'slug'     => 'pt',
             'hreflang' => 'pt',
             'locale'   => 'pt_PT',
+            'dir'      => 'ltr',
+        ),
+        'vi'    => array(
+            'label'    => __( 'Vietnamese', 'gambling-pedia-uk' ),
+            'slug'     => 'vi',
+            'hreflang' => 'vi',
+            'locale'   => 'vi',
+            'dir'      => 'ltr',
+        ),
+        'fi'    => array(
+            'label'    => __( 'Finnish', 'gambling-pedia-uk' ),
+            'slug'     => 'fi',
+            'hreflang' => 'fi',
+            'locale'   => 'fi',
+            'dir'      => 'ltr',
+        ),
+        'de_DE' => array(
+            'label'    => __( 'German', 'gambling-pedia-uk' ),
+            'slug'     => 'de',
+            'hreflang' => 'de',
+            'locale'   => 'de_DE',
+            'dir'      => 'ltr',
+        ),
+        'ja'    => array(
+            'label'    => __( 'Japanese', 'gambling-pedia-uk' ),
+            'slug'     => 'ja',
+            'hreflang' => 'ja',
+            'locale'   => 'ja',
+            'dir'      => 'ltr',
+        ),
+        'nb_NO' => array(
+            'label'    => __( 'Norwegian', 'gambling-pedia-uk' ),
+            'slug'     => 'nb',
+            'hreflang' => 'nb',
+            'locale'   => 'nb_NO',
             'dir'      => 'ltr',
         ),
         'ar'    => array(
@@ -287,6 +364,13 @@ function gpuk_get_available_languages() {
             'hreflang' => 'ar',
             'locale'   => 'ar',
             'dir'      => 'rtl',
+        ),
+        'zh_CN' => array(
+            'label'    => __( 'Chinese', 'gambling-pedia-uk' ),
+            'slug'     => 'zh',
+            'hreflang' => 'zh',
+            'locale'   => 'zh_CN',
+            'dir'      => 'ltr',
         ),
     );
 }
@@ -373,7 +457,12 @@ function gpuk_language_switcher() {
 
     foreach ( $languages as $code => $lang ) {
         $selected = ( $code === $current ) ? ' selected' : '';
-        $lang_url = home_url( '/' . $lang['slug'] . $clean_path );
+        // English (default) serves from root, all others from subfolder
+        if ( 'en' === $lang['slug'] ) {
+            $lang_url = home_url( $clean_path );
+        } else {
+            $lang_url = home_url( '/' . $lang['slug'] . $clean_path );
+        }
         echo '<option value="' . esc_url( $lang_url ) . '"' . $selected . '>' . esc_html( $lang['label'] ) . '</option>';
     }
 
@@ -986,12 +1075,17 @@ function gpuk_hreflang_tags() {
     $clean_path = strtok( $clean_path, '?' );
 
     foreach ( $languages as $code => $lang ) {
-        $lang_url = home_url( '/' . $lang['slug'] . rtrim( $clean_path, '/' ) . '/' );
+        // English (default) serves from root, all others from subfolder
+        if ( 'en' === $lang['slug'] ) {
+            $lang_url = home_url( rtrim( $clean_path, '/' ) . '/' );
+        } else {
+            $lang_url = home_url( '/' . $lang['slug'] . rtrim( $clean_path, '/' ) . '/' );
+        }
         echo '<link rel="alternate" hreflang="' . esc_attr( $lang['hreflang'] ) . '" href="' . esc_url( $lang_url ) . '">' . "\n";
     }
 
-    // x-default points to default (English) version
-    $default_url = home_url( '/en' . rtrim( $clean_path, '/' ) . '/' );
+    // x-default points to default (English) version at root URL
+    $default_url = home_url( rtrim( $clean_path, '/' ) . '/' );
     echo '<link rel="alternate" hreflang="x-default" href="' . esc_url( $default_url ) . '">' . "\n";
 }
 add_action( 'wp_head', 'gpuk_hreflang_tags', 2 );

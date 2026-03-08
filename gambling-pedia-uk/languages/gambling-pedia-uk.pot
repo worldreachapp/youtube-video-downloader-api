@@ -87,15 +87,31 @@ msgid "English (UK)"
 msgstr ""
 
 #: functions.php
-msgid "Spanish"
+msgid "Danish"
 msgstr ""
 
 #: functions.php
-msgid "French"
+msgid "Romanian"
 msgstr ""
 
 #: functions.php
-msgid "German"
+msgid "Dutch"
+msgstr ""
+
+#: functions.php
+msgid "Swedish"
+msgstr ""
+
+#: functions.php
+msgid "Hungarian"
+msgstr ""
+
+#: functions.php
+msgid "Korean"
+msgstr ""
+
+#: functions.php
+msgid "Greek"
 msgstr ""
 
 #: functions.php
@@ -103,11 +119,43 @@ msgid "Italian"
 msgstr ""
 
 #: functions.php
+msgid "Spanish"
+msgstr ""
+
+#: functions.php
+msgid "Thai"
+msgstr ""
+
+#: functions.php
 msgid "Portuguese"
 msgstr ""
 
 #: functions.php
+msgid "Vietnamese"
+msgstr ""
+
+#: functions.php
+msgid "Finnish"
+msgstr ""
+
+#: functions.php
+msgid "German"
+msgstr ""
+
+#: functions.php
+msgid "Japanese"
+msgstr ""
+
+#: functions.php
+msgid "Norwegian"
+msgstr ""
+
+#: functions.php
 msgid "Arabic"
+msgstr ""
+
+#: functions.php
+msgid "Chinese"
 msgstr ""
 
 #: functions.php
