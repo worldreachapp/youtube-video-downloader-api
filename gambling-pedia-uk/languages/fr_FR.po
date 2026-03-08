@@ -1,0 +1,195 @@
+# French Translation for Gambling Pedia UK
+# Copyright (C) 2024 Gambling Pedia UK
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gambling Pedia UK 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-01T00:00:00+00:00\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+msgid "Primary Navigation"
+msgstr "Navigation Principale"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Breaking"
+msgstr "Flash Info"
+
+msgid "Primary Menu"
+msgstr "Menu Principal"
+
+msgid "Footer Menu"
+msgstr "Menu Pied de Page"
+
+msgid "Top Bar Menu"
+msgstr "Menu Barre Supérieure"
+
+msgid "Main Sidebar"
+msgstr "Barre Latérale Principale"
+
+msgid "Select Language"
+msgstr "Choisir la Langue"
+
+msgid "English (UK)"
+msgstr "Anglais (UK)"
+
+msgid "Spanish"
+msgstr "Espagnol"
+
+msgid "French"
+msgstr "Français"
+
+msgid "German"
+msgstr "Allemand"
+
+msgid "Italian"
+msgstr "Italien"
+
+msgid "Portuguese"
+msgstr "Portugais"
+
+msgid "Arabic"
+msgstr "Arabe"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "Search: %s"
+msgstr "Recherche : %s"
+
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] "%d min de lecture"
+msgstr[1] "%d min de lecture"
+
+msgid "by"
+msgstr "par"
+
+msgid "Share:"
+msgstr "Partager :"
+
+msgid "About Gambling Pedia UK"
+msgstr "À propos de Gambling Pedia UK"
+
+msgid "Responsible Gambling"
+msgstr "Jeu Responsable"
+
+msgid "Gambling can be addictive. Please play responsibly. 18+ only. If you need help, visit BeGambleAware.org."
+msgstr "Le jeu peut créer une dépendance. Jouez de manière responsable. Réservé aux 18 ans et plus. Si vous avez besoin d'aide, visitez BeGambleAware.org."
+
+msgid "Quick Links"
+msgstr "Liens Rapides"
+
+msgid "Categories"
+msgstr "Catégories"
+
+msgid "Follow Us"
+msgstr "Suivez-nous"
+
+msgid "All rights reserved."
+msgstr "Tous droits réservés."
+
+msgid "Privacy Policy"
+msgstr "Politique de Confidentialité"
+
+msgid "Terms of Use"
+msgstr "Conditions d'Utilisation"
+
+msgid "Cookie Policy"
+msgstr "Politique de Cookies"
+
+msgid "Contact Us"
+msgstr "Nous Contacter"
+
+msgid "Latest News"
+msgstr "Dernières Actualités"
+
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+msgid "Articles"
+msgstr "Articles"
+
+msgid "Previous"
+msgstr "Précédent"
+
+msgid "Next"
+msgstr "Suivant"
+
+msgid "Trending Now"
+msgstr "Tendances"
+
+msgid "Newsletter"
+msgstr "Bulletin d'Information"
+
+msgid "Get the latest UK gambling news delivered to your inbox. No spam, unsubscribe anytime."
+msgstr "Recevez les dernières nouvelles sur les jeux d'argent au Royaume-Uni. Pas de spam, désabonnez-vous à tout moment."
+
+msgid "Your email address"
+msgstr "Votre adresse e-mail"
+
+msgid "Subscribe Now"
+msgstr "S'abonner Maintenant"
+
+msgid "Popular Tags"
+msgstr "Tags Populaires"
+
+msgid "%s views"
+msgstr "%s vues"
+
+msgid "Tags:"
+msgstr "Tags :"
+
+msgid "Related Articles"
+msgstr "Articles Connexes"
+
+msgid "Nothing Found"
+msgstr "Rien Trouvé"
+
+msgid "Sorry, no results were found for your search. Please try again with different keywords."
+msgstr "Désolé, aucun résultat n'a été trouvé pour votre recherche. Veuillez réessayer avec d'autres mots-clés."
+
+msgid "Search for:"
+msgstr "Rechercher :"
+
+msgid "Search news, reviews..."
+msgstr "Rechercher actualités, avis..."
+
+msgid "Search"
+msgstr "Rechercher"
+
+msgid "Page Not Found"
+msgstr "Page Non Trouvée"
+
+msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgstr "La page que vous recherchez a peut-être été supprimée, renommée ou est temporairement indisponible."
+
+msgid "Latest Articles"
+msgstr "Derniers Articles"
+
+msgid "Older Comments"
+msgstr "Commentaires Anciens"
+
+msgid "Newer Comments"
+msgstr "Commentaires Récents"
+
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+msgid "Breadcrumb"
+msgstr "Fil d'Ariane"
+
+msgid "Your trusted source for UK gambling news, casino reviews, sports betting insights, and regulatory updates. Stay informed with the latest from the British gambling industry."
+msgstr "Votre source fiable d'actualités sur les jeux d'argent au Royaume-Uni, de critiques de casinos, d'analyses de paris sportifs et de mises à jour réglementaires."

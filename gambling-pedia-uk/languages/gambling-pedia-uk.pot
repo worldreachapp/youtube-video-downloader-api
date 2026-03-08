@@ -1,0 +1,339 @@
+# Copyright (C) 2024 Gambling Pedia UK
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gambling Pedia UK 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI\n"
+"X-Domain: gambling-pedia-uk\n"
+
+#: header.php
+msgid "Skip to content"
+msgstr ""
+
+#: header.php
+msgid "Gambling"
+msgstr ""
+
+#: header.php
+msgid "Pedia"
+msgstr ""
+
+#: header.php
+msgid "UK"
+msgstr ""
+
+#: header.php
+msgid "Primary Navigation"
+msgstr ""
+
+#: header.php
+msgid "Menu"
+msgstr ""
+
+#: header.php
+msgid "Breaking"
+msgstr ""
+
+#: functions.php
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php
+msgid "Top Bar Menu"
+msgstr ""
+
+#: functions.php
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php
+msgid "Main sidebar widget area."
+msgstr ""
+
+#: functions.php
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions.php
+msgid "Footer Column 4"
+msgstr ""
+
+#: functions.php
+msgid "Select Language"
+msgstr ""
+
+#: functions.php
+msgid "English (UK)"
+msgstr ""
+
+#: functions.php
+msgid "Spanish"
+msgstr ""
+
+#: functions.php
+msgid "French"
+msgstr ""
+
+#: functions.php
+msgid "German"
+msgstr ""
+
+#: functions.php
+msgid "Italian"
+msgstr ""
+
+#: functions.php
+msgid "Portuguese"
+msgstr ""
+
+#: functions.php
+msgid "Arabic"
+msgstr ""
+
+#: functions.php
+msgid "Search..."
+msgstr ""
+
+#: functions.php
+msgid "Open Menu"
+msgstr ""
+
+#: functions.php
+msgid "Close Menu"
+msgstr ""
+
+#: functions.php
+msgid "Home"
+msgstr ""
+
+#: functions.php
+msgid "Search: %s"
+msgstr ""
+
+#: functions.php
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php
+msgid "by"
+msgstr ""
+
+#: functions.php
+msgid "Share:"
+msgstr ""
+
+#: functions.php
+msgid "Social Media Links"
+msgstr ""
+
+#: functions.php
+msgid "Breaking News Ticker"
+msgstr ""
+
+#: functions.php
+msgid "Show Breaking News Ticker"
+msgstr ""
+
+#: functions.php
+msgid "Breaking News Category"
+msgstr ""
+
+#: functions.php
+msgid "-- Select Category --"
+msgstr ""
+
+#: functions.php
+msgid "Footer Settings"
+msgstr ""
+
+#: functions.php
+msgid "Footer About Text"
+msgstr ""
+
+#: functions.php
+msgid "Responsible Gambling Notice"
+msgstr ""
+
+#: functions.php
+msgid "Gambling can be addictive. Please play responsibly. 18+ only. If you need help, visit BeGambleAware.org."
+msgstr ""
+
+#: footer.php
+msgid "About Gambling Pedia UK"
+msgstr ""
+
+#: footer.php
+msgid "Your trusted source for UK gambling news, casino reviews, sports betting insights, and regulatory updates. Stay informed with the latest from the British gambling industry."
+msgstr ""
+
+#: footer.php
+msgid "Responsible Gambling"
+msgstr ""
+
+#: footer.php
+msgid "Quick Links"
+msgstr ""
+
+#: footer.php
+msgid "Categories"
+msgstr ""
+
+#: footer.php
+msgid "Follow Us"
+msgstr ""
+
+#: footer.php
+msgid "All rights reserved."
+msgstr ""
+
+#: footer.php
+msgid "Privacy Policy"
+msgstr ""
+
+#: footer.php
+msgid "Terms of Use"
+msgstr ""
+
+#: footer.php
+msgid "Cookie Policy"
+msgstr ""
+
+#: footer.php
+msgid "Contact Us"
+msgstr ""
+
+#: index.php
+msgid "Latest News"
+msgstr ""
+
+#: index.php
+msgid "Search Results for: %s"
+msgstr ""
+
+#: index.php
+msgid "Articles"
+msgstr ""
+
+#: index.php
+msgid "Previous"
+msgstr ""
+
+#: index.php
+msgid "Next"
+msgstr ""
+
+#: sidebar.php
+msgid "Trending Now"
+msgstr ""
+
+#: sidebar.php
+msgid "Newsletter"
+msgstr ""
+
+#: sidebar.php
+msgid "Get the latest UK gambling news delivered to your inbox. No spam, unsubscribe anytime."
+msgstr ""
+
+#: sidebar.php
+msgid "Your email address"
+msgstr ""
+
+#: sidebar.php
+msgid "Subscribe Now"
+msgstr ""
+
+#: sidebar.php
+msgid "Popular Tags"
+msgstr ""
+
+#: single.php
+msgid "%s views"
+msgstr ""
+
+#: single.php
+msgid "Tags:"
+msgstr ""
+
+#: template-parts/related-posts.php
+msgid "Related Articles"
+msgstr ""
+
+#: template-parts/content-none.php
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php
+msgid "Sorry, no results were found for your search. Please try again with different keywords."
+msgstr ""
+
+#: template-parts/content-none.php
+msgid "It seems we can't find what you're looking for. Perhaps a search would help."
+msgstr ""
+
+#: searchform.php
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php
+msgid "Search news, reviews..."
+msgstr ""
+
+#: searchform.php
+msgid "Search"
+msgstr ""
+
+#: comments.php
+msgid "%1$s Comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php
+msgid "Comments are closed."
+msgstr ""
+
+#: 404.php
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php
+msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgstr ""
+
+#: 404.php
+msgid "Latest Articles"
+msgstr ""
+
+#: functions.php
+msgid "Breadcrumb"
+msgstr ""

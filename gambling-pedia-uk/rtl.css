@@ -1,0 +1,110 @@
+/*
+ * RTL (Right-to-Left) Stylesheet
+ * For Arabic and other RTL languages
+ *
+ * @package Gambling_Pedia_UK
+ */
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.top-bar .container {
+    flex-direction: row-reverse;
+}
+
+.site-branding {
+    flex-direction: row-reverse;
+}
+
+.header-main {
+    flex-direction: row-reverse;
+}
+
+.nav-menu {
+    flex-direction: row-reverse;
+}
+
+.nav-menu li .sub-menu {
+    left: auto;
+    right: 0;
+}
+
+.breaking-news .container {
+    flex-direction: row-reverse;
+}
+
+.ticker-wrap {
+    direction: rtl;
+}
+
+.featured-grid {
+    direction: rtl;
+}
+
+.content-wrapper {
+    direction: rtl;
+}
+
+.section-title::after {
+    left: auto;
+    right: 0;
+}
+
+.post-card .category-badge {
+    left: auto;
+    right: 12px;
+}
+
+.post-list-item {
+    flex-direction: row-reverse;
+}
+
+.entry-content blockquote {
+    border-left: none;
+    border-right: 4px solid var(--accent);
+    border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+}
+
+.author-box {
+    flex-direction: row-reverse;
+    border-left: none;
+    border-right: 4px solid var(--accent);
+}
+
+.single-post-meta {
+    flex-direction: row-reverse;
+}
+
+.post-share {
+    flex-direction: row-reverse;
+}
+
+.footer-bottom .container {
+    flex-direction: row-reverse;
+}
+
+.footer-bottom-links {
+    flex-direction: row-reverse;
+}
+
+.footer-widget .widget-title::after {
+    left: auto;
+    right: 0;
+}
+
+.sidebar .widget-title::after {
+    left: auto;
+    right: 0;
+}
+
+.breadcrumbs .separator {
+    transform: scaleX(-1);
+}
+
+.comment-author .avatar {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
