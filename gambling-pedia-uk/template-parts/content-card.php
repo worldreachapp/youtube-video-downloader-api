@@ -21,7 +21,7 @@
             <?php if ( has_post_thumbnail() ) : ?>
                 <?php the_post_thumbnail( 'gpuk-card' ); ?>
             <?php else : ?>
-                <div style="width:100%;height:100%;background:linear-gradient(135deg, #1a1a2e, #16213e); min-height: 180px;"></div>
+                <div class="post-thumbnail-placeholder"></div>
             <?php endif; ?>
         </a>
     </div>

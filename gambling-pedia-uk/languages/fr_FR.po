@@ -211,3 +211,13 @@ msgstr "Entrez la valeur du contenu de la balise meta de vérification."
 
 msgid "Bing Site Verification"
 msgstr "Vérification Bing"
+
+msgid "Footer Bottom Links"
+msgstr "Liens de Bas de Page"
+
+#, php-format
+msgid "About %s"
+msgstr "À propos de %s"
+
+msgid "Contact"
+msgstr "Contact"

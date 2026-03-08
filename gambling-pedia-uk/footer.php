@@ -15,7 +15,7 @@
                         <?php dynamic_sidebar( 'footer-1' ); ?>
                     <?php else : ?>
                         <div class="footer-widget">
-                            <h4 class="widget-title"><?php esc_html_e( 'About Gambling Pedia UK', 'gambling-pedia-uk' ); ?></h4>
+                            <h4 class="widget-title"><?php /* translators: %s: site name */ printf( esc_html__( 'About %s', 'gambling-pedia-uk' ), get_bloginfo( 'name' ) ); ?></h4>
                             <p>
                                 <?php
                                 $about_text = get_theme_mod( 'gpuk_footer_about', '' );
@@ -78,7 +78,7 @@
                     <?php else : ?>
                         <div class="footer-widget">
                             <h4 class="widget-title"><?php esc_html_e( 'Follow Us', 'gambling-pedia-uk' ); ?></h4>
-                            <div class="social-links" style="display: flex; flex-direction: column; gap: 8px;">
+                            <div class="social-links social-links--vertical">
                                 <?php
                                 $social_platforms = array(
                                     'twitter'   => 'Twitter / X',
@@ -112,10 +112,45 @@
                     <?php esc_html_e( 'All rights reserved.', 'gambling-pedia-uk' ); ?>
                 </p>
                 <div class="footer-bottom-links">
-                    <a href="<?php echo esc_url( get_privacy_policy_url() ); ?>"><?php esc_html_e( 'Privacy Policy', 'gambling-pedia-uk' ); ?></a>
-                    <a href="#"><?php esc_html_e( 'Terms of Use', 'gambling-pedia-uk' ); ?></a>
-                    <a href="#"><?php esc_html_e( 'Cookie Policy', 'gambling-pedia-uk' ); ?></a>
-                    <a href="#"><?php esc_html_e( 'Contact Us', 'gambling-pedia-uk' ); ?></a>
+                    <?php
+                    if ( has_nav_menu( 'footer-bottom' ) ) :
+                        wp_nav_menu( array(
+                            'theme_location' => 'footer-bottom',
+                            'container'      => false,
+                            'depth'          => 1,
+                            'fallback_cb'    => false,
+                            'items_wrap'     => '%3$s',
+                        ) );
+                    else :
+                        // Fallback: link to pages by slug when no menu is assigned
+                        $privacy_url = get_privacy_policy_url();
+                        if ( $privacy_url ) :
+                    ?>
+                        <a href="<?php echo esc_url( $privacy_url ); ?>"><?php esc_html_e( 'Privacy Policy', 'gambling-pedia-uk' ); ?></a>
+                    <?php
+                        endif;
+
+                        $legal_slugs = array(
+                            'terms-of-use'  => __( 'Terms of Use', 'gambling-pedia-uk' ),
+                            'cookie-policy' => __( 'Cookie Policy', 'gambling-pedia-uk' ),
+                            'contact-us'    => __( 'Contact Us', 'gambling-pedia-uk' ),
+                            'contact'       => __( 'Contact', 'gambling-pedia-uk' ),
+                        );
+                        $shown = array();
+                        foreach ( $legal_slugs as $slug => $label ) :
+                            if ( in_array( $slug, $shown, true ) ) {
+                                continue;
+                            }
+                            $page = get_page_by_path( $slug );
+                            if ( $page ) :
+                                $shown[] = $slug;
+                    ?>
+                        <a href="<?php echo esc_url( get_permalink( $page ) ); ?>"><?php echo esc_html( $label ); ?></a>
+                    <?php
+                            endif;
+                        endforeach;
+                    endif;
+                    ?>
                 </div>
                 <?php gpuk_language_switcher(); ?>
             </div>

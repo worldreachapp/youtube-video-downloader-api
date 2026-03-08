@@ -53,7 +53,9 @@ else :
     <div class="widget newsletter-widget">
         <h3 class="widget-title"><?php esc_html_e( 'Newsletter', 'gambling-pedia-uk' ); ?></h3>
         <p><?php esc_html_e( 'Get the latest UK gambling news delivered to your inbox. No spam, unsubscribe anytime.', 'gambling-pedia-uk' ); ?></p>
-        <form class="newsletter-form" action="#" method="post">
+        <form class="newsletter-form" action="<?php echo esc_url( admin_url( 'admin-ajax.php' ) ); ?>" method="post">
+            <?php wp_nonce_field( 'gpuk_newsletter', 'gpuk_newsletter_nonce' ); ?>
+            <input type="hidden" name="action" value="gpuk_newsletter_subscribe">
             <input type="email" name="email" placeholder="<?php esc_attr_e( 'Your email address', 'gambling-pedia-uk' ); ?>" required>
             <button type="submit"><?php esc_html_e( 'Subscribe Now', 'gambling-pedia-uk' ); ?></button>
         </form>

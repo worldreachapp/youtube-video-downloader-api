@@ -628,6 +628,14 @@ ul, ol {
     transform: translateY(-3px);
 }
 
+/* Post Thumbnail Placeholder (no featured image fallback) */
+.post-thumbnail-placeholder {
+    width: 100%;
+    height: 100%;
+    min-height: 180px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+}
+
 .post-card .post-thumbnail {
     position: relative;
     overflow: hidden;
@@ -922,6 +930,17 @@ ul, ol {
 .social-link.telegram { background: #0088cc; }
 .social-link.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
 .social-link.rss { background: #ff6600; }
+
+/* Footer vertical social links layout */
+.social-links--vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.social-links--vertical .social-link {
+    width: 100%;
+}
 
 /* Tags Cloud */
 .tagcloud a {
@@ -1284,9 +1303,15 @@ ul, ol {
     flex-wrap: wrap;
 }
 
-.footer-bottom-links a {
+.footer-bottom-links a,
+.footer-bottom-links li a {
     color: rgba(255,255,255,0.5);
     font-size: 0.8rem;
+}
+
+.footer-bottom-links li {
+    list-style: none;
+    display: inline;
 }
 
 .footer-bottom-links a:hover {

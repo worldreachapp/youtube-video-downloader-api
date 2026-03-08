@@ -38,7 +38,7 @@ if ( $featured->have_posts() ) :
                     <?php if ( has_post_thumbnail() ) : ?>
                         <?php the_post_thumbnail( 'gpuk-featured-large' ); ?>
                     <?php else : ?>
-                        <div style="width:100%;height:100%;background:linear-gradient(135deg, var(--primary), var(--primary-light));"></div>
+                        <div class="post-thumbnail-placeholder"></div>
                     <?php endif; ?>
                 </div>
                 <div class="featured-overlay">
@@ -73,7 +73,7 @@ if ( $featured->have_posts() ) :
                         <?php if ( has_post_thumbnail() ) : ?>
                             <?php the_post_thumbnail( 'gpuk-featured-medium' ); ?>
                         <?php else : ?>
-                            <div style="width:100%;height:100%;background:linear-gradient(135deg, var(--primary-light), var(--primary));"></div>
+                            <div class="post-thumbnail-placeholder"></div>
                         <?php endif; ?>
                     </div>
                     <div class="featured-overlay">

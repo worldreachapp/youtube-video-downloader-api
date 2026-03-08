@@ -62,9 +62,10 @@ function gpuk_setup() {
 
     // Navigation menus
     register_nav_menus( array(
-        'primary'   => esc_html__( 'Primary Menu', 'gambling-pedia-uk' ),
-        'footer'    => esc_html__( 'Footer Menu', 'gambling-pedia-uk' ),
-        'top-bar'   => esc_html__( 'Top Bar Menu', 'gambling-pedia-uk' ),
+        'primary'       => esc_html__( 'Primary Menu', 'gambling-pedia-uk' ),
+        'footer'        => esc_html__( 'Footer Menu', 'gambling-pedia-uk' ),
+        'footer-bottom' => esc_html__( 'Footer Bottom Links', 'gambling-pedia-uk' ),
+        'top-bar'       => esc_html__( 'Top Bar Menu', 'gambling-pedia-uk' ),
     ) );
 }
 add_action( 'after_setup_theme', 'gpuk_setup' );

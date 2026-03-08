@@ -377,3 +377,16 @@ msgstr ""
 #: functions.php
 msgid "Footer widget area column 4."
 msgstr ""
+
+#: functions.php
+msgid "Footer Bottom Links"
+msgstr ""
+
+#: footer.php
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: footer.php
+msgid "Contact"
+msgstr ""

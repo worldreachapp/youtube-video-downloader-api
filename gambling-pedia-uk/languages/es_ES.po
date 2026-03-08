@@ -220,3 +220,13 @@ msgstr "Ingrese el valor de contenido de la etiqueta meta de verificación."
 
 msgid "Bing Site Verification"
 msgstr "Verificación de Bing"
+
+msgid "Footer Bottom Links"
+msgstr "Enlaces del Pie de Página"
+
+#, php-format
+msgid "About %s"
+msgstr "Acerca de %s"
+
+msgid "Contact"
+msgstr "Contacto"

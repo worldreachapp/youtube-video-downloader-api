@@ -54,9 +54,7 @@
                 <div>
                     <h1 class="site-title">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                            <?php esc_html_e( 'Gambling', 'gambling-pedia-uk' ); ?>
-                            <span class="title-accent"><?php esc_html_e( 'Pedia', 'gambling-pedia-uk' ); ?></span>
-                            <?php esc_html_e( 'UK', 'gambling-pedia-uk' ); ?>
+                            <?php bloginfo( 'name' ); ?>
                         </a>
                     </h1>
                     <p class="site-description"><?php echo esc_html( get_bloginfo( 'description', 'display' ) ); ?></p>
