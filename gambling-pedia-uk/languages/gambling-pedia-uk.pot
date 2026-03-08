@@ -272,6 +272,19 @@ msgstr ""
 msgid "Contact Us"
 msgstr ""
 
+#: footer.php
+msgid "About Us"
+msgstr ""
+
+#: footer.php
+msgid "Gambling Laws UK"
+msgstr ""
+
+#: sidebar.php
+#, php-format
+msgid "Get the latest news from %s delivered to your inbox. No spam, unsubscribe anytime."
+msgstr ""
+
 #: index.php
 msgid "Latest News"
 msgstr ""

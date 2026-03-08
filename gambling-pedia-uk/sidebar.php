@@ -52,7 +52,7 @@ else :
     <!-- Newsletter Widget -->
     <div class="widget newsletter-widget">
         <h3 class="widget-title"><?php esc_html_e( 'Newsletter', 'gambling-pedia-uk' ); ?></h3>
-        <p><?php esc_html_e( 'Get the latest UK gambling news delivered to your inbox. No spam, unsubscribe anytime.', 'gambling-pedia-uk' ); ?></p>
+        <p><?php /* translators: %s: site name */ printf( esc_html__( 'Get the latest news from %s delivered to your inbox. No spam, unsubscribe anytime.', 'gambling-pedia-uk' ), get_bloginfo( 'name' ) ); ?></p>
         <form class="newsletter-form" action="<?php echo esc_url( admin_url( 'admin-ajax.php' ) ); ?>" method="post">
             <?php wp_nonce_field( 'gpuk_newsletter', 'gpuk_newsletter_nonce' ); ?>
             <input type="hidden" name="action" value="gpuk_newsletter_subscribe">

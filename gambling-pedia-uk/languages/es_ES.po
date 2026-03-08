@@ -158,6 +158,16 @@ msgstr "Política de Cookies"
 msgid "Contact Us"
 msgstr "Contáctenos"
 
+msgid "About Us"
+msgstr "Sobre Nosotros"
+
+msgid "Gambling Laws UK"
+msgstr "Leyes de Juego del Reino Unido"
+
+#, php-format
+msgid "Get the latest news from %s delivered to your inbox. No spam, unsubscribe anytime."
+msgstr "Recibe las últimas noticias de %s en tu correo. Sin spam, cancela cuando quieras."
+
 msgid "Latest News"
 msgstr "Últimas Noticias"
 
@@ -180,7 +190,7 @@ msgid "Newsletter"
 msgstr "Boletín Informativo"
 
 msgid "Get the latest UK gambling news delivered to your inbox. No spam, unsubscribe anytime."
-msgstr "Recibe las últimas noticias de juegos de azar del Reino Unido en tu correo. Sin spam, cancela cuando quieras."
+msgstr ""
 
 msgid "Your email address"
 msgstr "Tu dirección de correo electrónico"

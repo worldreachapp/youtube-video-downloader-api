@@ -22,7 +22,13 @@
                                 if ( $about_text ) {
                                     echo esc_html( $about_text );
                                 } else {
-                                    esc_html_e( 'Your trusted source for UK gambling news, casino reviews, sports betting insights, and regulatory updates. Stay informed with the latest from the British gambling industry.', 'gambling-pedia-uk' );
+                                    // Use site tagline as fallback, or a translatable generic description
+                                    $tagline = get_bloginfo( 'description' );
+                                    if ( $tagline ) {
+                                        echo esc_html( $tagline );
+                                    } else {
+                                        esc_html_e( 'Your trusted source for UK gambling news, casino reviews, sports betting insights, and regulatory updates. Stay informed with the latest from the British gambling industry.', 'gambling-pedia-uk' );
+                                    }
                                 }
                                 ?>
                             </p>
@@ -131,10 +137,13 @@
                         endif;
 
                         $legal_slugs = array(
-                            'terms-of-use'  => __( 'Terms of Use', 'gambling-pedia-uk' ),
-                            'cookie-policy' => __( 'Cookie Policy', 'gambling-pedia-uk' ),
-                            'contact-us'    => __( 'Contact Us', 'gambling-pedia-uk' ),
-                            'contact'       => __( 'Contact', 'gambling-pedia-uk' ),
+                            'about-us'              => __( 'About Us', 'gambling-pedia-uk' ),
+                            'contact-us'            => __( 'Contact Us', 'gambling-pedia-uk' ),
+                            'contact'               => __( 'Contact', 'gambling-pedia-uk' ),
+                            'gambling-responsibly'   => __( 'Responsible Gambling', 'gambling-pedia-uk' ),
+                            'gambling-laws-uk'      => __( 'Gambling Laws UK', 'gambling-pedia-uk' ),
+                            'terms-of-use'          => __( 'Terms of Use', 'gambling-pedia-uk' ),
+                            'cookie-policy'         => __( 'Cookie Policy', 'gambling-pedia-uk' ),
                         );
                         $shown = array();
                         foreach ( $legal_slugs as $slug => $label ) :
