@@ -196,6 +196,7 @@ ul, ol { list-style: none; }
 .footer-bottom-links { display: flex; gap: 20px; flex-wrap: wrap; }
 .footer-bottom-links a { color: rgba(255,255,255,0.5); font-size: 0.8rem; }
 .footer-bottom-links a:hover { color: var(--gold); }
+.footer-bottom .language-switcher select { background: rgba(255,255,255,0.1); color: #fff; border: 1px solid rgba(255,255,255,0.2); padding: 4px 28px 4px 10px; border-radius: var(--radius-sm); font-size: 0.8rem; cursor: pointer; appearance: none; }
 .responsible-gambling { background: rgba(255,255,255,0.05); padding: 20px; border-radius: var(--radius-md); margin-top: 15px; border: 1px solid rgba(255,255,255,0.1); }
 .responsible-gambling h4 { color: var(--gold); font-size: 0.85rem; margin-bottom: 8px; }
 .responsible-gambling p { font-size: 0.78rem; line-height: 1.6; margin-bottom: 0; }
@@ -316,17 +317,6 @@ ul, ol { list-style: none; }
             <a href="#">Contact</a>
         </div>
         <div class="top-bar-right">
-            <div class="language-switcher">
-                <select>
-                    <option selected>English (UK)</option>
-                    <option>Espa&ntilde;ol</option>
-                    <option>Fran&ccedil;ais</option>
-                    <option>Deutsch</option>
-                    <option>Italiano</option>
-                    <option>Portugu&ecirc;s</option>
-                    <option>&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</option>
-                </select>
-            </div>
         </div>
     </div>
 </div>
@@ -616,16 +606,6 @@ ul, ol { list-style: none; }
 
                 </div>
 
-                <!-- Pagination -->
-                <nav class="pagination">
-                    <span class="page-numbers current">1</span>
-                    <a href="#" class="page-numbers">2</a>
-                    <a href="#" class="page-numbers">3</a>
-                    <a href="#" class="page-numbers">4</a>
-                    <span class="page-numbers dots">&hellip;</span>
-                    <a href="#" class="page-numbers">12</a>
-                    <a href="#" class="page-numbers">Next &raquo;</a>
-                </nav>
             </main>
 
             <!-- ========================================
@@ -1000,6 +980,17 @@ ul, ol { list-style: none; }
                 <a href="#">Terms of Use</a>
                 <a href="#">Cookie Policy</a>
                 <a href="#">Contact Us</a>
+            </div>
+            <div class="language-switcher">
+                <select>
+                    <option selected>English (UK)</option>
+                    <option>Espa&ntilde;ol</option>
+                    <option>Fran&ccedil;ais</option>
+                    <option>Deutsch</option>
+                    <option>Italiano</option>
+                    <option>Portugu&ecirc;s</option>
+                    <option>&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</option>
+                </select>
             </div>
         </div>
     </div>
