@@ -117,6 +117,7 @@
                     <a href="#"><?php esc_html_e( 'Cookie Policy', 'gambling-pedia-uk' ); ?></a>
                     <a href="#"><?php esc_html_e( 'Contact Us', 'gambling-pedia-uk' ); ?></a>
                 </div>
+                <?php gpuk_language_switcher(); ?>
             </div>
         </div>
     </footer>

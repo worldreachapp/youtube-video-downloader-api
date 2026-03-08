@@ -20,17 +20,6 @@
             });
         }
 
-        // Breaking news ticker - pause on hover
-        var ticker = document.querySelector('.ticker-wrap');
-        if (ticker) {
-            ticker.addEventListener('mouseenter', function () {
-                this.style.animationPlayState = 'paused';
-            });
-            ticker.addEventListener('mouseleave', function () {
-                this.style.animationPlayState = 'running';
-            });
-        }
-
         // Back to top button
         var backToTop = document.createElement('button');
         backToTop.className = 'back-to-top';

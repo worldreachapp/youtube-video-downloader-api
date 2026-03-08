@@ -202,3 +202,21 @@ msgstr "Migas de pan"
 
 msgid "Your trusted source for UK gambling news, casino reviews, sports betting insights, and regulatory updates. Stay informed with the latest from the British gambling industry."
 msgstr "Tu fuente confiable de noticias sobre juegos de azar en el Reino Unido, reseñas de casinos, análisis de apuestas deportivas y actualizaciones regulatorias."
+
+msgid "SEO Settings"
+msgstr "Configuración SEO"
+
+msgid "Default Meta Description"
+msgstr "Meta Descripción Predeterminada"
+
+msgid "Used on pages without their own description. Max 160 characters."
+msgstr "Se usa en páginas sin su propia descripción. Máximo 160 caracteres."
+
+msgid "Google Site Verification"
+msgstr "Verificación de Google"
+
+msgid "Enter the verification meta tag content value."
+msgstr "Ingrese el valor de contenido de la etiqueta meta de verificación."
+
+msgid "Bing Site Verification"
+msgstr "Verificación de Bing"

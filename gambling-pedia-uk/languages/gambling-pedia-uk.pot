@@ -337,3 +337,43 @@ msgstr ""
 #: functions.php
 msgid "Breadcrumb"
 msgstr ""
+
+#: functions.php
+msgid "SEO Settings"
+msgstr ""
+
+#: functions.php
+msgid "Default Meta Description"
+msgstr ""
+
+#: functions.php
+msgid "Used on pages without their own description. Max 160 characters."
+msgstr ""
+
+#: functions.php
+msgid "Google Site Verification"
+msgstr ""
+
+#: functions.php
+msgid "Enter the verification meta tag content value."
+msgstr ""
+
+#: functions.php
+msgid "Bing Site Verification"
+msgstr ""
+
+#: functions.php
+msgid "Footer widget area column 1."
+msgstr ""
+
+#: functions.php
+msgid "Footer widget area column 2."
+msgstr ""
+
+#: functions.php
+msgid "Footer widget area column 3."
+msgstr ""
+
+#: functions.php
+msgid "Footer widget area column 4."
+msgstr ""

@@ -37,8 +37,6 @@
             <?php endif; ?>
         </div>
         <div class="top-bar-right">
-            <?php gpuk_language_switcher(); ?>
-            <span class="age-badge">18+</span>
         </div>
     </div>
 </div>
@@ -65,9 +63,6 @@
                 </div>
             </div>
 
-            <div class="header-search">
-                <?php get_search_form(); ?>
-            </div>
         </div>
     </div>
 
@@ -90,35 +85,5 @@
         </div>
     </nav>
 </header>
-
-<?php
-// Breaking News Ticker
-$breaking_posts = gpuk_get_breaking_news();
-if ( ! empty( $breaking_posts ) ) :
-?>
-<div class="breaking-news">
-    <div class="container">
-        <span class="breaking-label"><?php esc_html_e( 'Breaking', 'gambling-pedia-uk' ); ?></span>
-        <div class="breaking-news-ticker">
-            <div class="ticker-wrap">
-                <?php foreach ( $breaking_posts as $bp ) : ?>
-                    <span class="ticker-item">
-                        <a href="<?php echo esc_url( get_permalink( $bp ) ); ?>">
-                            <?php echo esc_html( $bp->post_title ); ?>
-                        </a>
-                    </span>
-                <?php endforeach; ?>
-                <?php foreach ( $breaking_posts as $bp ) : ?>
-                    <span class="ticker-item">
-                        <a href="<?php echo esc_url( get_permalink( $bp ) ); ?>">
-                            <?php echo esc_html( $bp->post_title ); ?>
-                        </a>
-                    </span>
-                <?php endforeach; ?>
-            </div>
-        </div>
-    </div>
-</div>
-<?php endif; ?>
 
 <?php gpuk_breadcrumbs(); ?>

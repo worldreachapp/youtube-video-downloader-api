@@ -193,3 +193,21 @@ msgstr "Fil d'Ariane"
 
 msgid "Your trusted source for UK gambling news, casino reviews, sports betting insights, and regulatory updates. Stay informed with the latest from the British gambling industry."
 msgstr "Votre source fiable d'actualités sur les jeux d'argent au Royaume-Uni, de critiques de casinos, d'analyses de paris sportifs et de mises à jour réglementaires."
+
+msgid "SEO Settings"
+msgstr "Paramètres SEO"
+
+msgid "Default Meta Description"
+msgstr "Méta Description par Défaut"
+
+msgid "Used on pages without their own description. Max 160 characters."
+msgstr "Utilisé sur les pages sans leur propre description. Maximum 160 caractères."
+
+msgid "Google Site Verification"
+msgstr "Vérification Google"
+
+msgid "Enter the verification meta tag content value."
+msgstr "Entrez la valeur du contenu de la balise meta de vérification."
+
+msgid "Bing Site Verification"
+msgstr "Vérification Bing"
